@@ -8,7 +8,7 @@ CC=  gcc  # gcc or g++
 
 CFLAGS=-g -Wall -DNORMALUNIX -DLINUX -march=i386 -m32 # -DUSEASM
 LDFLAGS=
-LIBS=-lXext -lX11 -lnsl -lm
+LIBS=-lglut -lGL -lXext -lX11 -lnsl -lm
 
 # subdirectory for objects
 O=linux
@@ -81,7 +81,8 @@ all:	 $(O)/linuxxdoom
 
 clean:
 	rm -f *.o *~ *.flc
-	rm -f linux/*
+	rm -f linux/*.o
+	rm -f linux/linuxxdoom
 
 $(O)/linuxxdoom:	$(OBJS) $(O)/i_main.o
 	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) $(O)/i_main.o \
