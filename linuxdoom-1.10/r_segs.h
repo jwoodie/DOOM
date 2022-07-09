@@ -15,7 +15,7 @@
 // for more details.
 //
 // DESCRIPTION:
-//	Refresh module, drawing LineSegs from BSP.
+//      Refresh module, drawing LineSegs from BSP.
 //
 //-----------------------------------------------------------------------------
 
@@ -29,11 +29,7 @@
 #endif
 
 
-void
-R_RenderMaskedSegRange
-( drawseg_t*	ds,
-  int		x1,
-  int		x2 );
+void R_RenderMaskedSegRange (drawseg_t * ds, int x1, int x2);
 
 
 #endif

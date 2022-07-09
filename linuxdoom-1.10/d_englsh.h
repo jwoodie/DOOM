@@ -15,8 +15,8 @@
 // for more details.
 //
 // DESCRIPTION:
-//	Printed strings for translation.
-//	English language support (default).
+//      Printed strings for translation.
+//      English language support (default).
 //
 //-----------------------------------------------------------------------------
 
@@ -24,7 +24,7 @@
 #define __D_ENGLSH__
 
 //
-//	Printed strings for translation
+//      Printed strings for translation
 //
 
 //
@@ -34,7 +34,7 @@
 #define D_CDROM	"CD-ROM Version: default.cfg from c:\\doomdata\n"
 
 //
-//	M_Menu.C
+//      M_Menu.C
 //
 #define PRESSKEY 	"press a key."
 #define PRESSYN 	"press y or n."
@@ -75,7 +75,7 @@
 #define EMPTYSTRING	"empty slot"
 
 //
-//	P_inter.C
+//      P_inter.C
 //
 #define GOTARMOR	"Picked up the armor."
 #define GOTMEGA	"Picked up the MegaArmor!"
@@ -130,12 +130,12 @@
 #define PD_YELLOWK	"You need a yellow key to open this door"
 
 //
-//	G_game.C
+//      G_game.C
 //
 #define GGSAVED	"game saved."
 
 //
-//	HU_stuff.C
+//      HU_stuff.C
 //
 #define HUSTR_MSGU	"[Message unsent]"
 
@@ -320,7 +320,7 @@
 #define HUSTR_KEYRED	'r'
 
 //
-//	AM_map.C
+//      AM_map.C
 //
 
 #define AMSTR_FOLLOWON	"Follow Mode ON"
@@ -333,7 +333,7 @@
 #define AMSTR_MARKSCLEARED	"All Marks Cleared"
 
 //
-//	ST_stuff.C
+//      ST_stuff.C
 //
 
 #define STSTR_MUS		"Music Change"
@@ -354,7 +354,7 @@
 #define STSTR_CLEV		"Changing Level..."
 
 //
-//	F_Finale.C
+//      F_Finale.C
 //
 #define E1TEXT \
 "Once you beat the big badasses and\n"\
@@ -524,7 +524,7 @@
 "BLAZE THROUGH THIS ONE!\n"
 
 
-// after map 06	
+// after map 06 
 
 #define P1TEXT  \
 "You gloat over the steaming carcass of the\n"\

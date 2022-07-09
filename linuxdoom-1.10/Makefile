@@ -6,8 +6,8 @@
 #
 CC=  gcc  # gcc or g++
 
-CFLAGS=-g -Wall -DNORMALUNIX -DLINUX # -DUSEASM 
-LDFLAGS=-L/usr/X11R6/lib
+CFLAGS=-g -Wall -DNORMALUNIX -DLINUX -march=i386 -m32 # -DUSEASM
+LDFLAGS=
 LIBS=-lXext -lX11 -lnsl -lm
 
 # subdirectory for objects
@@ -24,14 +24,14 @@ OBJS=				\
 		$(O)/i_net.o			\
 		$(O)/tables.o			\
 		$(O)/f_finale.o		\
-		$(O)/f_wipe.o 		\
+		$(O)/f_wipe.o		\
 		$(O)/d_main.o			\
 		$(O)/d_net.o			\
 		$(O)/d_items.o		\
 		$(O)/g_game.o			\
 		$(O)/m_menu.o			\
 		$(O)/m_misc.o			\
-		$(O)/m_argv.o  		\
+		$(O)/m_argv.o		\
 		$(O)/m_bbox.o			\
 		$(O)/m_fixed.o		\
 		$(O)/m_swap.o			\

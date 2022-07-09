@@ -15,7 +15,7 @@
 // for more details.
 //
 // DESCRIPTION:
-//	Cheat code checking.
+//      Cheat code checking.
 //
 //-----------------------------------------------------------------------------
 
@@ -33,21 +33,15 @@
 
 typedef struct
 {
-    unsigned char*	sequence;
-    unsigned char*	p;
-    
+  unsigned char *sequence;
+  unsigned char *p;
+
 } cheatseq_t;
 
-int
-cht_CheckCheat
-( cheatseq_t*		cht,
-  char			key );
+int cht_CheckCheat (cheatseq_t * cht, char key);
 
 
-void
-cht_GetParam
-( cheatseq_t*		cht,
-  char*			buffer );
+void cht_GetParam (cheatseq_t * cht, char *buffer);
 
 
 #endif

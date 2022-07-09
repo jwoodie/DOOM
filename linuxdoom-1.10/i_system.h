@@ -15,7 +15,7 @@
 // for more details.
 //
 // DESCRIPTION:
-//	System specific interface stuff.
+//      System specific interface stuff.
 //
 //-----------------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ void I_Init (void);
 // Called by startup code
 // to get the ammount of memory to malloc
 // for the zone management.
-byte*	I_ZoneBase (int *size);
+byte *I_ZoneBase (int *size);
 
 
 // Called by D_DoomLoop,
@@ -71,7 +71,7 @@ void I_StartTic (void);
 // or calls a loadable driver to build it.
 // This ticcmd will then be modified by the gameloop
 // for normal input.
-ticcmd_t* I_BaseTiccmd (void);
+ticcmd_t *I_BaseTiccmd (void);
 
 
 // Called by M_Responder when quit is selected.
@@ -81,7 +81,7 @@ void I_Quit (void);
 
 // Allocates from low memory under dos,
 // just mallocs under unix
-byte* I_AllocLow (int length);
+byte *I_AllocLow (int length);
 
 void I_Tactile (int on, int off, int total);
 

@@ -15,7 +15,7 @@
 // for more details.
 //
 // DESCRIPTION:
-//	Printed strings, french translation.
+//      Printed strings, french translation.
 //
 //-----------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@
 #define D_CDROM		"VERSION CD-ROM: DEFAULT.CFG DANS C:\\DOOMDATA\n"
 
 //
-//	M_Menu.C
+//      M_Menu.C
 //
 #define PRESSKEY 	"APPUYEZ SUR UNE TOUCHE."
 #define PRESSYN 	"APPUYEZ SUR Y OU N"
@@ -67,7 +67,7 @@
 #define EMPTYSTRING	"EMPLACEMENT VIDE"
 
 //
-//	P_inter.C
+//      P_inter.C
 //
 #define GOTARMOR	"ARMURE RECUPEREE."
 #define GOTMEGA		"MEGA-ARMURE RECUPEREE!"
@@ -122,12 +122,12 @@
 #define PD_YELLOWK	PD_YELLOWO
 
 //
-//	G_game.C
+//      G_game.C
 //
 #define GGSAVED		"JEU SAUVEGARDE."
 
 //
-//	HU_stuff.C
+//      HU_stuff.C
 //
 #define HUSTR_MSGU	"[MESSAGE NON ENVOYE]"
 
@@ -226,12 +226,12 @@
 #define HUSTR_PLRRED		"ROUGE: "
 
 #define HUSTR_KEYGREEN	'g'	// french key should be "V"
-#define HUSTR_KEYINDIGO	'i'	
-#define HUSTR_KEYBROWN	'b'	
+#define HUSTR_KEYINDIGO	'i'
+#define HUSTR_KEYBROWN	'b'
 #define HUSTR_KEYRED		'r'
 
 //
-//	AM_map.C
+//      AM_map.C
 //
 
 #define AMSTR_FOLLOWON		"MODE POURSUITE ON"
@@ -244,7 +244,7 @@
 #define AMSTR_MARKSCLEARED	"REPERES EFFACES "
 
 //
-//	ST_stuff.C
+//      ST_stuff.C
 //
 
 #define STSTR_MUS		"CHANGEMENT DE MUSIQUE "
@@ -265,7 +265,7 @@
 #define STSTR_CLEV		"CHANGEMENT DE NIVEAU..."
 
 //
-//	F_Finale.C
+//      F_Finale.C
 //
 #define E1TEXT	"APRES AVOIR VAINCU LES GROS MECHANTS\n"\
 "ET NETTOYE LA BASE LUNAIRE, VOUS AVEZ\n"\
@@ -282,7 +282,7 @@
 "POUR VIVRE LA SUITE DE DOOM, JOUEZ\n"\
 "A 'AUX PORTES DE L'ENFER' ET A\n"\
 "L'EPISODE SUIVANT, 'L'ENFER'!\n"
-				
+
 #define E2TEXT	"VOUS AVEZ REUSSI. L'INFAME DEMON\n"\
 "QUI CONTROLAIT LA BASE LUNAIRE DE\n"\
 "DEIMOS EST MORT, ET VOUS AVEZ\n"\
@@ -429,5 +429,3 @@
 // $Log:$
 //
 //-----------------------------------------------------------------------------
-
-

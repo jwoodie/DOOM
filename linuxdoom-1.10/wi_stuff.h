@@ -30,10 +30,9 @@
 
 typedef enum
 {
-    NoState = -1,
-    StatCount,
-    ShowNextLoc
-
+  NoState = -1,
+  StatCount,
+  ShowNextLoc
 } stateenum_t;
 
 // Called by main loop, animate the intermission.
@@ -44,7 +43,7 @@ void WI_Ticker (void);
 void WI_Drawer (void);
 
 // Setup for an intermission screen.
-void WI_Start(wbstartstruct_t*	 wbstartstruct);
+void WI_Start (wbstartstruct_t * wbstartstruct);
 
 #endif
 //-----------------------------------------------------------------------------

@@ -31,7 +31,7 @@
 #define HU_FONTEND	'_'	// the last font characters
 
 // Calculate # of glyphs in font.
-#define HU_FONTSIZE	(HU_FONTEND - HU_FONTSTART + 1)	
+#define HU_FONTSIZE	(HU_FONTEND - HU_FONTSTART + 1)
 
 #define HU_BROADCAST	5
 
@@ -47,15 +47,15 @@
 // HEADS UP TEXT
 //
 
-void HU_Init(void);
-void HU_Start(void);
+void HU_Init (void);
+void HU_Start (void);
 
-boolean HU_Responder(event_t* ev);
+boolean HU_Responder (event_t * ev);
 
-void HU_Ticker(void);
-void HU_Drawer(void);
-char HU_dequeueChatChar(void);
-void HU_Erase(void);
+void HU_Ticker (void);
+void HU_Drawer (void);
+char HU_dequeueChatChar (void);
+void HU_Erase (void);
 
 
 #endif

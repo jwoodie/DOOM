@@ -18,7 +18,7 @@
 // $Log:$
 //
 // DESCRIPTION:
-//	DOOM strings, by language.
+//      DOOM strings, by language.
 //
 //-----------------------------------------------------------------------------
 
@@ -55,7 +55,7 @@
 // QuitDOOM messages
 #define NUM_QUITMESSAGES   22
 
-extern char* endmsg[];
+extern char *endmsg[];
 
 
 #endif

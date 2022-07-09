@@ -15,9 +15,9 @@
 // for more details.
 //
 // DESCRIPTION:
-//	Status bar code.
-//	Does the face/direction indicator animatin.
-//	Does palette indicators as well (red pain/berserk, bright pickup)
+//      Status bar code.
+//      Does the face/direction indicator animatin.
+//      Does palette indicators as well (red pain/berserk, bright pickup)
 //
 //-----------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@
 //
 
 // Called by main loop.
-boolean ST_Responder (event_t* ev);
+boolean ST_Responder (event_t * ev);
 
 // Called by main loop.
 void ST_Ticker (void);
@@ -58,23 +58,21 @@ void ST_Init (void);
 // States for status bar code.
 typedef enum
 {
-    AutomapState,
-    FirstPersonState
-    
+  AutomapState,
+  FirstPersonState
 } st_stateenum_t;
 
 
 // States for the chat code.
 typedef enum
 {
-    StartChatState,
-    WaitDestState,
-    GetChatState
-    
+  StartChatState,
+  WaitDestState,
+  GetChatState
 } st_chatstateenum_t;
 
 
-boolean ST_Responder(event_t* ev);
+boolean ST_Responder (event_t * ev);
 
 
 
