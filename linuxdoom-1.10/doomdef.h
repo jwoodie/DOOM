@@ -109,8 +109,7 @@ typedef enum
 //SCREEN_MUL*BASE_WIDTH //320
 #define SCREENHEIGHT 200
 //(int)(SCREEN_MUL*BASE_WIDTH*INV_ASPECT_RATIO) //200
-
-
+#define SCREENHEIGHT_4_3 240
 
 
 // The maximum number of players, multiplayer/networking.
